@@ -30,7 +30,7 @@ const server = function () {
         },
         plugins: [
             new webpack.DefinePlugin({
-                'process_env': {
+                'process.env': {
                     'NODE_ENV': JSON.stringify('development')
                 }
             })
