@@ -6,6 +6,7 @@ const host = 'localhost';
 const port = 8080;
 
 /**
+ * react hot loader
  * webpack entry 顺序“
  * react-hot-loader/patch
  * webpack-dev-server/client?http:// ${ host }: ${ port }

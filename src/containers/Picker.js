@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 import { SELECT_SUBREDDIT } from '../actions/picker';
 import { REQUEST_POSTS } from '../actions/posts';
-import { getPosts } from '../Api/getPosts'
+import { getPosts } from '../api/getPosts'
 import Picker from '../components/Picker';
 
 const mapStateToProps = state => {
